@@ -1,0 +1,48 @@
+/* FONT NETFLIX*/
+@font-face {
+  font-family: Netflix;
+  src: url(./assets/font/BebasNeue-Regular.ttf);
+}
+@font-face {
+  font-family: Netflix2;
+  src: url(./assets/font/BebasNeue-Regular.otf);
+}
+
+body {
+  background-color: #141414 !important;
+  width: 96%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  font-family: Netflix;
+}
+
+body > header > nav > div:nth-child(1) > a > img {
+  width: 80px;
+}
+
+.genere {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid gray;
+  transition: 120ms;
+}
+
+.bg-site {
+  background-color: #141414;
+}
+
+footer {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service-code {
+  border: 1px solid gray;
+}
+
+.navbar-nav img {
+  color: aliceblue;
+  width: 20px;
+  border: 1px solid gray;
+}

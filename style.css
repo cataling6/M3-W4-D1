@@ -47,11 +47,39 @@ footer {
   border: 1px solid gray;
 }
 
-.ico-profile:hover {
+/* tasto */
+.ico-profile {
   position: relative;
+  display: inline-block;
 }
 
+/* contenuto */
 .ico-dropdown {
+  width: 160px;
   display: none;
   position: absolute;
+  bottom: -140px;
+  left: -100px;
+  z-index: 1;
+}
+
+.ico-dropdown a {
+  backdrop-filter: blur(5px);
+  display: block;
+}
+
+ul li {
+  list-style: none;
+  margin: 0;
+  pad: 0;
+}
+.ico-dropdown a:hover {
+  background-color: #ddd;
+}
+
+.ico-profile:hover .ico-dropdown {
+  display: block;
+}
+
+.ico-profile:hover .ico-button {
 }

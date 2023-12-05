@@ -43,6 +43,15 @@ footer {
 
 .navbar-nav img {
   color: aliceblue;
-  width: 20px;
+  width: 40px;
   border: 1px solid gray;
+}
+
+.ico-profile:hover {
+  position: relative;
+}
+
+.ico-dropdown {
+  display: none;
+  position: absolute;
 }

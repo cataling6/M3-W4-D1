@@ -30,38 +30,40 @@
               <a class="nav-link" aria-current="page" href="#">My list</a>
             </div>
             <div class="navbar-nav">
-              <a class="nav-link" aria-current="page" href="#">searchIco</a>
+              <a class="nav-link" aria-current="page" href="#"><i class="bi bi-search"></i></a>
               <a class="nav-link" aria-current="page" href="#">KIDS</a>
-              <a class="nav-link" aria-current="page" href="#">notifyIco</a>
-              <a class="nav-link" aria-current="page" href="#">profileIco</a>
+              <a class="nav-link" aria-current="page" href="#"><i class="bi bi-bell-fill"></i></a>
+              <div class="ico-profile d-flex align-items-center dropdown-toggle text-white" data-bs-toggle="dropdown" target>
+                <img src="./assets/imgs/profile.jpg" alt="" />
+                <ul class="ico-dropdown">
+                  <li><a class="dropdown-item" href="#">Cata</a></li>
+                  <li><a class="dropdown-item" href="#">Cristi</a></li>
+                  <li><a class="dropdown-item" href="#">Marcela</a></li>
+                </ul>
+              </div>
+              <!-- <a class="nav-link ico-profile" aria-current="page" href="#"></a> -->
             </div>
           </div>
         </div>
 
-        <div class="container-fluid col-lg-12">
-          <div class="navbar-nav">
-            <a class="navbar-brand" href="#">TV Shows </a>
-
-            <div class="dropdown">
-              <button class="genere dropdown-toggle text-white" type="button" data-bs-toggle="dropdown">Genres &nbsp; &nbsp; &nbsp;</button>
-              <!--<i class="bi bi-caret-down-fill"></i> -->
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Horror</a></li>
-                <li><a class="dropdown-item" href="#">Comedy</a></li>
-                <li><a class="dropdown-item" href="#">Musical</a></li>
-                <li><a class="dropdown-item" href="#">Science Fiction</a></li>
-              </ul>
+        <div class="container-fluid col-lg-12 d-flex justify-content-between">
+          <div class="navbar-nav flex-nowrap row col-lg-3 justify-content-start">
+            <div class="col-lg-5">
+              <span class="fw-bolder text-white m-0 fs-3" href="#">TV Shows</span>
             </div>
-            <!-- <div class="dropdown">
-              <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Genres</button>
-              <ul class="dropdown-menu">
-                <li>Horror</li>
-                <li>Commedian</li>
-                <li>Musical</li>
-              </ul>
-            </div> -->
+            <div class="col-lg-7 align-self-center">
+              <div class="dropdown">
+                <button class="genere dropdown-toggle text-white" type="button" data-bs-toggle="dropdown">Genres &nbsp; &nbsp; &nbsp;</button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Horror</a></li>
+                  <li><a class="dropdown-item" href="#">Comedy</a></li>
+                  <li><a class="dropdown-item" href="#">Musical</a></li>
+                  <li><a class="dropdown-item" href="#">Science Fiction</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="navbar-nav">
+          <div class="col-lg-1 d-flex text-white gap-3 justify-content-end">
             <a class="nav-link" aria-current="page" href="#"><i class="bi bi-text-left"></i></a>
             <a class="nav-link" aria-current="page" href="#"><i class="bi bi-grid"></i></a>
           </div>

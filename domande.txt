@@ -1,0 +1,6 @@
+1) navbar quanto responsive? deve avere un menu a ristringemnto? oppure, visto che la versione web NON è prevista per 
+utilizzo mobile, evitiamo?
+
+2) carosllle da sistemare (quantecard x carosello)
+
+3) 

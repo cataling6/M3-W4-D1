@@ -14,11 +14,15 @@ body {
   margin-left: auto !important;
   margin-right: auto !important;
   font-family: Netflix;
+  /* height: calc(100vh - 263px); */
 }
 
 body > header > nav > div:nth-child(1) > a > img {
   width: 80px;
 }
+/* main {
+  height: calc(100vh - 366px);
+} */
 
 .genere {
   background-color: transparent;
@@ -29,12 +33,6 @@ body > header > nav > div:nth-child(1) > a > img {
 
 .bg-site {
   background-color: #141414;
-}
-
-footer {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .service-code {
@@ -83,3 +81,31 @@ ul li {
 
 .ico-profile:hover .ico-button {
 }
+
+/* .centrato {
+  
+} */
+
+.card-deck:has(> .card:hover) .card:not(:hover) {
+  opacity: 0.5;
+}
+
+.card-c {
+  background-color: azure;
+  height: 110px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card-c img {
+  object-fit: scale-down;
+  aspect-ratio: 16/9;
+}
+
+/* .card-deck {
+  background-color: #9e9e9e17;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1rem;
+} */

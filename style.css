@@ -82,30 +82,6 @@ ul li {
 .ico-profile:hover .ico-button {
 }
 
-/* .centrato {
-  
-} */
-
-.card-deck:has(> .card:hover) .card:not(:hover) {
-  opacity: 0.5;
+.carousel-item div div div div > img {
+  height: 100px;
 }
-
-.card-c {
-  background-color: azure;
-  height: 110px;
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-.card-c img {
-  object-fit: scale-down;
-  aspect-ratio: 16/9;
-}
-
-/* .card-deck {
-  background-color: #9e9e9e17;
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 1rem;
-} */

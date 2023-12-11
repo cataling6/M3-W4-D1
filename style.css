@@ -29,9 +29,11 @@ main {
 }
 
 .genere {
-  background-color: transparent;
+  color: white !important;
+  border-radius: 0 !important;
+  background-color: black !important ;
   outline: none;
-  border: 1px solid gray;
+  border: 1px solid gray !important;
   transition: 120ms;
 }
 
@@ -83,9 +85,6 @@ ul li {
   display: block;
 }
 
-.ico-profile:hover .ico-button {
-}
-
 .carousel-item div div div div > img {
   width: 200px;
 }
@@ -96,4 +95,17 @@ ul li {
 
 div.carousel-item > img {
   width: 200px;
+}
+
+div.carousel-item.active > div > div > div {
+  min-width: 310px;
+}
+
+img {
+  transition: 250ms ease-in-out;
+  box-sizing: border-box;
+}
+
+img:hover {
+  transform: scale(1.05);
 }
